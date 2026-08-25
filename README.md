@@ -69,3 +69,10 @@ Robotics Engineering & Artificial Intelligence student at **Universitas Airlangg
 </div>
 
 <br/>
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=A855F7&style=flat-square" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
+
+</div>
