@@ -18,7 +18,7 @@
 
 ### 👋 About Me
 
-Robotics Engineering & Artificial Intelligence student at **Universitas Airlangga**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
+Robotics Engineering & Artificial Intelligence student at **Airlangga University**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
 
 <br/>
 
