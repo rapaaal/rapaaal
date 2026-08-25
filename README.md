@@ -69,26 +69,3 @@ Robotics Engineering & Artificial Intelligence student at **Universitas Airlangg
 </div>
 
 <br/>
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=rapaaal&show_icons=true&hide_border=true&bg_color=05060F&title_color=A855F7&text_color=F8FAFC&icon_color=22D3EE" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rapaaal&layout=compact&hide_border=true&bg_color=05060F&title_color=A855F7&text_color=F8FAFC" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.demolab.com/?user=rapaaal&hide_border=true&background=05060F&ring=22D3EE&fire=F472B6&currStreakLabel=A855F7&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=A855F7&style=flat-square" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
-
-</div>
