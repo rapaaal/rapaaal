@@ -3,7 +3,7 @@
 <img src="hero-banner.svg" width="100%"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=600&lines=Robotics,%2B, Artificial Intellegence+%2B,Design;Engineering+intelligence+into+machines;Always+building.+Always+learning." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=600&lines=Robotics+%2B, Artificial Intellegence+%2B+Design;Engineering+intelligence+into+machines;Always+building.+Always+learning." alt="Typing SVG" />
 </a>
 
 <br/>
