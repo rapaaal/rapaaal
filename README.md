@@ -3,14 +3,14 @@
 <img src="hero-banner.svg" width="100%"/>
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=600&lines=Robotics+%2B+AI+%2B+Design;Engineering+intelligence+into+machines;Always+building.+Always+learning." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=38BDF8&center=true&vCenter=true&width=600&lines=Robotics+%2B+AI+%2B+Bold+Design;Engineering+intelligence+into+machines;Always+building.+Always+learning." alt="Typing SVG" />
 </a>
 
 <br/>
 
-<a href="https://instagram.com/rapaaal_"><img src="https://img.shields.io/badge/Instagram-05060F?style=flat-square&logo=instagram&logoColor=F472B6" /></a>
-<a href="https://www.linkedin.com/in/rafa-albanin-76a105336"><img src="https://img.shields.io/badge/LinkedIn-05060F?style=flat-square&logo=linkedin&logoColor=22D3EE" /></a>
-<a href="mailto:rafaalbanin19207@gmail.com"><img src="https://img.shields.io/badge/Email-05060F?style=flat-square&logo=gmail&logoColor=A855F7" /></a>
+<a href="https://instagram.com/rapaaal_"><img src="https://img.shields.io/badge/Instagram-05060F?style=flat-square&logo=instagram&logoColor=FBBF24" /></a>
+<a href="https://www.linkedin.com/in/rafa-albanin-76a105336"><img src="https://img.shields.io/badge/LinkedIn-05060F?style=flat-square&logo=linkedin&logoColor=38BDF8" /></a>
+<a href="mailto:rafaalbanin19207@gmail.com"><img src="https://img.shields.io/badge/Email-05060F?style=flat-square&logo=gmail&logoColor=38BDF8" /></a>
 
 </div>
 
@@ -18,7 +18,7 @@
 
 ### 👋 About Me
 
-Robotics Engineering & Artificial Intelligence student at **Airlangga University**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
+Robotics Engineering & Artificial Intelligence student at **Universitas Airlangga**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
 
 <br/>
 
@@ -62,17 +62,33 @@ Robotics Engineering & Artificial Intelligence student at **Airlangga University
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Framework7-05060F?style=flat-square&logo=framework7&logoColor=F8FAFC" />
-<img src="https://img.shields.io/badge/Canva-05060F?style=flat-square&logo=canva&logoColor=F8FAFC" />
+<img src="https://img.shields.io/badge/Canva-05060F?style=flat-square&logoColor=F8FAFC" />
 <img src="https://img.shields.io/badge/Framer-05060F?style=flat-square&logo=framer&logoColor=F8FAFC" />
-<img src="https://img.shields.io/badge/Adobe%20Lightroom-05060F?style=flat-square&logo=adobelightroom&logoColor=F8FAFC" />
+<img src="https://img.shields.io/badge/Adobe%20Lightroom-05060F?style=flat-square&logoColor=F8FAFC" />
 
 </div>
 
 <br/>
+
+### 📊 GitHub Stats
+
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=A855F7&style=flat-square" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=rapaaal&show_icons=true&hide_border=true&bg_color=05060F&title_color=FBBF24&text_color=F8FAFC&icon_color=38BDF8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rapaaal&layout=compact&hide_border=true&bg_color=05060F&title_color=FBBF24&text_color=F8FAFC" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
+<br/>
+
+<img src="https://github-readme-streak-stats.demolab.com/?user=rapaaal&hide_border=true&background=05060F&ring=38BDF8&fire=FBBF24&currStreakLabel=FBBF24&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=94A3B8" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=38BDF8&style=flat-square" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:38BDF8,100:F59E0B&height=100&section=footer" width="100%"/>
 
 </div>

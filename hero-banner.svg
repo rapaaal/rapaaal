@@ -1,95 +1,196 @@
-<svg viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#05060f">
-        <animate attributeName="stop-color" values="#05060f;#170b30;#05060f" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#05060f;#150b30;#05060f" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="55%" stop-color="#1b1035">
-        <animate attributeName="stop-color" values="#1b1035;#2e1065;#1b1035" dur="9s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#05060f">
-        <animate attributeName="stop-color" values="#05060f;#0b2233;#05060f" dur="9s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#0b1d3a">
+        <animate attributeName="stop-color" values="#0b1d3a;#05060f;#0b1d3a" dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
-    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="warmBlob" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="coolBlob" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.85"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    <radialGradient id="dotGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
     </radialGradient>
 
+    <linearGradient id="accentGradV" gradientUnits="userSpaceOnUse" x1="60" y1="18" x2="60" y2="128">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="accentGradH" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="430" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
     <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-      <animate attributeName="x1" values="-40%;140%" dur="3.2s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0%;180%" dur="3.2s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#f8fafc" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f8fafc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0"/>
+      <animate attributeName="x1" values="-40%;140%" dur="2.6s" begin="2.1s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;180%" dur="2.6s" begin="2.1s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <filter id="blur6" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7"/>
+    <pattern id="dotgrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="13" r="1" fill="#38bdf8" opacity="0.5"/>
+    </pattern>
+
+    <filter id="textGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="focusBlur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8">
+        <animate attributeName="stdDeviation" values="8;8;0" keyTimes="0;0.2;1" dur="0.9s" begin="0.8s" fill="freeze"/>
+      </feGaussianBlur>
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="1200" height="260" rx="26" fill="url(#bg)"/>
+  <!-- base -->
+  <rect x="0" y="0" width="1200" height="280" rx="26" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="280" rx="26" fill="url(#dotgrid)" opacity="0">
+    <animate attributeName="opacity" values="0;0.18" dur="0.8s" fill="freeze"/>
+  </rect>
 
-  <!-- floating glow particles -->
-  <circle cx="90" cy="60" r="30" fill="url(#glowCyan)">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-14;0,0" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="5s" repeatCount="indefinite"/>
+  <!-- ambient light -->
+  <circle cx="150" cy="245" r="190" fill="url(#warmBlob)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
   </circle>
-  <circle cx="1120" cy="70" r="36" fill="url(#glowViolet)">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,16;0,0" dur="6.5s" repeatCount="indefinite" begin="0.6s"/>
-    <animate attributeName="opacity" values="0.45;0.85;0.45" dur="6.5s" repeatCount="indefinite" begin="0.6s"/>
-  </circle>
-  <circle cx="150" cy="205" r="22" fill="url(#glowPink)">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,-10;0,0" dur="4.2s" repeatCount="indefinite" begin="1.1s"/>
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4.2s" repeatCount="indefinite" begin="1.1s"/>
-  </circle>
-  <circle cx="1080" cy="200" r="26" fill="url(#glowCyan)">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,12;0,0" dur="5.6s" repeatCount="indefinite" begin="1.8s"/>
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="5.6s" repeatCount="indefinite" begin="1.8s"/>
-  </circle>
-  <circle cx="600" cy="30" r="18" fill="url(#glowViolet)">
-    <animateTransform attributeName="transform" type="translate" values="0,0;0,10;0,0" dur="4.8s" repeatCount="indefinite" begin="0.3s"/>
-    <animate attributeName="opacity" values="0.3;0.65;0.3" dur="4.8s" repeatCount="indefinite" begin="0.3s"/>
+  <circle cx="1010" cy="30" r="210" fill="url(#coolBlob)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.15s" fill="freeze"/>
   </circle>
 
-  <!-- circuit traces -->
-  <path d="M40,44 L210,44 L210,96 L360,96" fill="none" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.6"/>
-  <circle r="4.5" fill="url(#glowCyan)">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M40,44 L210,44 L210,96 L360,96"/>
-  </circle>
+  <!-- accent bar -->
+  <line x1="60" y1="128" x2="60" y2="128" stroke="url(#accentGradV)" stroke-width="4" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.3s" fill="freeze"/>
+    <animate attributeName="y1" values="128;18" dur="0.6s" begin="0.3s" fill="freeze"/>
+  </line>
 
-  <path d="M1160,216 L990,216 L990,164 L840,164" fill="none" stroke="#a855f7" stroke-opacity="0.28" stroke-width="1.6"/>
-  <circle r="4.5" fill="url(#glowViolet)">
-    <animateMotion dur="7s" repeatCount="indefinite" path="M1160,216 L990,216 L990,164 L840,164"/>
-  </circle>
-
-  <!-- name: glow layer + crisp layer -->
-  <text x="600" y="140" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700"
-        text-anchor="middle" fill="#22d3ee" filter="url(#blur6)">
+  <!-- name glow -->
+  <text x="90" y="132" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700"
+        fill="#38bdf8" filter="url(#textGlow)" opacity="0">
     RAFA ALBANIN FUAD
-    <animate attributeName="opacity" values="0.45;0.75;0.45" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.65" dur="0.9s" begin="0.8s" fill="freeze"/>
+    <animate attributeName="opacity" values="0.5;0.75;0.5" dur="4s" begin="1.7s" repeatCount="indefinite"/>
   </text>
-  <text x="600" y="140" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700"
-        text-anchor="middle" fill="#f8fafc">
-    RAFA ALBANIN FUAD
-  </text>
+
+  <!-- name crisp -->
+  <g filter="url(#focusBlur)">
+    <text x="90" y="150" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700"
+          fill="#f8fafc" opacity="0">
+      RAFA ALBANIN FUAD
+      <animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="y" values="150;132" dur="0.9s" begin="0.8s" fill="freeze"/>
+    </text>
+  </g>
 
   <!-- subtitle -->
-  <text x="600" y="180" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="3"
-        text-anchor="middle" fill="#94a3b8">
+  <text x="90" y="184" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="2.5"
+        fill="#94a3b8" opacity="0">
     ROBOTICS ENGINEERING &amp; ARTIFICIAL INTELLIGENCE
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+    <animate attributeName="y" values="184;172" dur="0.6s" begin="1.2s" fill="freeze"/>
   </text>
 
-  <!-- shimmering underline -->
-  <rect x="430" y="198" width="340" height="2.4" fill="url(#shimmer)"/>
+  <!-- underline: draw-in then shimmer -->
+  <line x1="90" y1="196" x2="430" y2="196" stroke="url(#accentGradH)" stroke-width="2"
+        stroke-dasharray="340" stroke-dashoffset="340">
+    <animate attributeName="stroke-dashoffset" values="340;0" dur="0.5s" begin="1.5s" fill="freeze"/>
+  </line>
+  <rect x="90" y="193" width="340" height="6" fill="url(#shimmer)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+  </rect>
+
+  <!-- chip cluster -->
+  <g transform="translate(960,140)">
+
+    <!-- pins -->
+    <line x1="34" y1="0" x2="80" y2="0" stroke="#38bdf8" stroke-width="2" opacity="0.85"
+          stroke-dasharray="46" stroke-dashoffset="46">
+      <animate attributeName="stroke-dashoffset" values="46;0" dur="0.5s" begin="0.7s" fill="freeze"/>
+    </line>
+    <line x1="-34" y1="0" x2="-80" y2="0" stroke="#38bdf8" stroke-width="2" opacity="0.85"
+          stroke-dasharray="46" stroke-dashoffset="46">
+      <animate attributeName="stroke-dashoffset" values="46;0" dur="0.5s" begin="0.75s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="-34" x2="0" y2="-80" stroke="#38bdf8" stroke-width="2" opacity="0.85"
+          stroke-dasharray="46" stroke-dashoffset="46">
+      <animate attributeName="stroke-dashoffset" values="46;0" dur="0.5s" begin="0.8s" fill="freeze"/>
+    </line>
+    <line x1="0" y1="34" x2="0" y2="80" stroke="#38bdf8" stroke-width="2" opacity="0.85"
+          stroke-dasharray="46" stroke-dashoffset="46">
+      <animate attributeName="stroke-dashoffset" values="46;0" dur="0.5s" begin="0.85s" fill="freeze"/>
+    </line>
+
+    <circle cx="80" cy="0" r="4" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.2s" fill="freeze"/>
+    </circle>
+    <circle cx="-80" cy="0" r="4" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.25s" fill="freeze"/>
+    </circle>
+    <circle cx="0" cy="-80" r="4" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.3s" fill="freeze"/>
+    </circle>
+    <circle cx="0" cy="80" r="4" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.35s" fill="freeze"/>
+    </circle>
+
+    <!-- traveling pulses on two pins (loop) -->
+    <circle r="3.5" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="1.8s" begin="2s" repeatCount="indefinite"/>
+      <animateMotion dur="1.8s" begin="2s" repeatCount="indefinite" path="M34,0 L80,0"/>
+    </circle>
+    <circle r="3.5" fill="url(#dotGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.9;1" dur="2.1s" begin="2.2s" repeatCount="indefinite"/>
+      <animateMotion dur="2.1s" begin="2.2s" repeatCount="indefinite" path="M0,-34 L0,-80"/>
+    </circle>
+
+    <!-- ping rings -->
+    <circle r="38" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.6s" begin="1.9s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="38;95" dur="2.6s" begin="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="38" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.6s" begin="2.77s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="38;95" dur="2.6s" begin="2.77s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="38" fill="none" stroke="#fbbf24" stroke-width="2" opacity="0">
+      <animate attributeName="opacity" values="0;0.55;0" dur="2.6s" begin="3.63s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="38;95" dur="2.6s" begin="3.63s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- chip body -->
+    <g transform="scale(0)">
+      <animateTransform attributeName="transform" type="scale" values="0;1.12;1" keyTimes="0;0.7;1" dur="0.7s" begin="0.6s" fill="freeze"/>
+      <rect x="-34" y="-34" width="68" height="68" rx="14" fill="none" stroke="#38bdf8" stroke-width="3" filter="url(#textGlow)" opacity="0.7"/>
+      <rect x="-34" y="-34" width="68" height="68" rx="14" fill="#0b1220" stroke="#38bdf8" stroke-width="2"/>
+      <line x1="-18" y1="-10" x2="18" y2="-10" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#38bdf8" stroke-width="1.5" opacity="0.35"/>
+      <line x1="-18" y1="10" x2="18" y2="10" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+    </g>
+
+    <!-- orbiting electron with trail -->
+    <circle r="5" fill="url(#orbGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="2s" fill="freeze"/>
+      <animateMotion dur="5.5s" begin="2s" repeatCount="indefinite" path="M -95,0 A 95,58 0 1,1 95,0 A 95,58 0 1,1 -95,0"/>
+    </circle>
+    <circle r="3.5" fill="url(#orbGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;0.5" dur="0.3s" begin="2.15s" fill="freeze"/>
+      <animateMotion dur="5.5s" begin="2.15s" repeatCount="indefinite" path="M -95,0 A 95,58 0 1,1 95,0 A 95,58 0 1,1 -95,0"/>
+    </circle>
+    <circle r="2.5" fill="url(#orbGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;0.3" dur="0.3s" begin="2.3s" fill="freeze"/>
+      <animateMotion dur="5.5s" begin="2.3s" repeatCount="indefinite" path="M -95,0 A 95,58 0 1,1 95,0 A 95,58 0 1,1 -95,0"/>
+    </circle>
+  </g>
 </svg>
