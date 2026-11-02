@@ -67,7 +67,7 @@ Robotics & Artificial Intelligence Engineering student at **Universitas Airlangg
 
 <div align="center">
 
-![spotify-github-profile](/img/spotify-embed.svg)
+<img src="spotify-embed.svg"/>
 
 <img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=A855F7&style=flat-square" />
 
