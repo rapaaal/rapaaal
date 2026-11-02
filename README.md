@@ -1,122 +1,79 @@
-::: {align="center"}
-# Rafa Albanin Fuad
+<div align="center">
 
-**Robotics & Artificial Intelligence Engineering Student**\
-Universitas Airlangga · Surabaya, Indonesia
+<img src="hero-banner.svg" width="100%"/>
 
-*Interested in robotics, embedded systems, software, and practical
-engineering.*
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=600&lines=Robotics+%2B+AI+%2B+Design;Engineering+intelligence+into+machines;Always+building.+Always+learning." alt="Typing SVG" />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-1f6feb?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafa-albanin/)
-[![Instagram](https://img.shields.io/badge/Instagram-Profile-555555?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/rapaaal_/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-555555?style=flat-square&logo=gmail&logoColor=white)](mailto:rafaalbanin19207@gmail.com)
-[![Wokwi](https://img.shields.io/badge/Wokwi-Projects-555555?style=flat-square)](https://wokwi.com/makers/rapaaal_)
-:::
+<br/>
 
-------------------------------------------------------------------------
+<a href="https://instagram.com/rapaaal_"><img src="https://img.shields.io/badge/Instagram-05060F?style=flat-square&logo=instagram&logoColor=F472B6" /></a>
+<a href="https://www.linkedin.com/in/rafa-albanin-76a105336"><img src="https://img.shields.io/badge/LinkedIn-05060F?style=flat-square&logo=linkedin&logoColor=22D3EE" /></a>
+<a href="mailto:rafaalbanin19207@gmail.com"><img src="https://img.shields.io/badge/Email-05060F?style=flat-square&logo=gmail&logoColor=A855F7" /></a>
 
-## About
+</div>
 
-Hello! I'm Rafa, a Robotics & Artificial Intelligence Engineering
-student at **Universitas Airlangga**.
+<br/>
 
-I enjoy learning how hardware and software work together, then applying
-that knowledge through projects and experiments. My current interests
-include **robotics, embedded systems, programming, and renewable-energy
-applications**.
+### 👋 About Me
 
-Outside technical work, I take part in student activities and enjoy
-collaborating, learning from others, and developing my communication and
-leadership skills.
+Robotics & Artificial Intelligence Engineering student at **Universitas Airlangga**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
 
-## Areas of Interest
+<br/>
 
-  -----------------------------------------------------------------------
-  Area                                Topics
-  ----------------------------------- -----------------------------------
-  **Robotics & AI**                   Intelligent systems, automation,
-                                      and applied problem-solving
+**⚡ Quick facts**
 
-  **Embedded Systems**                Microcontrollers, sensors, and
-                                      hardware-software integration
+- 🎓 Robotics Engineering & AI, Universitas Airlangga (Surabaya)
+- 🥇 Graduated top of the MIPA program at MAN 1 Kudus before continuing to Airlangga
+- 🔭 Currently building my personal portfolio site and staying active with HIMATERA
+- 🎯 Aiming for a Master's abroad, with a robotics/AI industry role as the backup path
+- 💬 Happy to talk robotics, embedded systems, or product design
+- 📫 rafaalbanin19207@gmail.com
 
-  **Software Development**            Programming fundamentals,
-                                      application logic, and system
-                                      design
+<br/>
 
-  **Renewable Energy**                Monitoring systems and practical
-                                      sustainability applications
-  -----------------------------------------------------------------------
+<details>
+<summary><b>🏆 Achievements & Experience</b> — click to expand</summary>
+<br/>
 
-## Technologies & Tools
+**Competitions & certifications**
+- 🥉 3rd Place — KRENOVA Competition, Kabupaten Kudus (2024)
+- 🎖️ Finalist — LKTI Diponegoro Chemistry Fair (DCF), Universitas Diponegoro (2024)
+- 📐 Participant — Olimpiade Polymer, Universitas Jember (2024)
+- 🥈 Bronze Medal — Olimpiade Sains Airlangga (OSA), Mathematics (2023)
+- 📜 Data Analytics & Design Bootcamp — President University (Mechanical Engineering track)
 
-**Programming**
+**Organizational experience**
+- HIMATERA (Himpunan Mahasiswa Teknik Robotika) — Staff, PSDM Division
+- PKKMB Program Studi 2026 — Perkap (Equipment & Logistics) Coordinator
+- Robo Impact — taught basic Arduino & programming to schools around Surabaya
 
-![C++](https://img.shields.io/badge/C%2B%2B-555555?style=flat-square&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-555555?style=flat-square&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-555555?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-555555?style=flat-square&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-555555?style=flat-square&logo=html5&logoColor=white)
+</details>
 
-**Frameworks, Platforms & Tools**
+<br/>
 
-![Laravel](https://img.shields.io/badge/Laravel-555555?style=flat-square&logo=laravel&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-555555?style=flat-square&logo=arduino&logoColor=white)
-![Google
-Cloud](https://img.shields.io/badge/Google%20Cloud-555555?style=flat-square&logo=googlecloud&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-555555?style=flat-square&logo=github&logoColor=white)
-![Wokwi](https://img.shields.io/badge/Wokwi-555555?style=flat-square)
+### 🛠️ Tech Stack
 
-## Selected Projects
+<div align="center">
 
-A few areas I'm working on or exploring. Repository links can be added
-as each project is published.
+<img src="https://skillicons.dev/icons?i=cpp,c,html,py,java,gcp,laravel,github,ai&theme=dark&perline=9" />
 
-### Floating Solar Monitoring System
+<br/><br/>
 
-An ESP32-based monitoring project concept using electrical measurements
-and platform-orientation sensing.
+<img src="https://img.shields.io/badge/Framework7-05060F?style=flat-square&logo=framework7&logoColor=F8FAFC" />
+<img src="https://img.shields.io/badge/Canva-05060F?style=flat-square&logo=canva&logoColor=F8FAFC" />
+<img src="https://img.shields.io/badge/Framer-05060F?style=flat-square&logo=framer&logoColor=F8FAFC" />
+<img src="https://img.shields.io/badge/Adobe%20Lightroom-05060F?style=flat-square&logo=adobelightroom&logoColor=F8FAFC" />
 
--   **Focus:** embedded systems, sensor integration, and renewable
-    energy
--   **Components explored:** ESP32, INA219, and MPU6050
--   **Status:** development and simulation
+</div>
 
-### Digital Signal Processing --- Sensor Data
+<br/>
 
-Coursework exploring signal analysis and Z-transform methods using
-accelerometer data.
+<div align="center">
 
--   **Focus:** Python, sensor data, signal processing, and visualization
--   **Work:** data analysis and plotting
+<img src="https://komarev.com/ghpvc/?username=rapaaal&label=Profile+Views&color=A855F7&style=flat-square" />
 
-### Programming & Engineering Experiments
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
 
-A growing collection of programming exercises, simulations, and
-technical explorations from coursework and independent learning.
-
-> Add links to the public repositories above when they are ready. Only
-> include projects you can comfortably explain and demonstrate.
-
-## Beyond Engineering
-
--   Student organization and collaborative activities
--   Competitions and continuous self-development
--   Renewable energy and sustainability
--   Product design and practical problem-solving
-
-## GitHub Activity
-
-::: {align="center"}
-[![Rafa's GitHub
-stats](https://github-readme-stats.vercel.app/api?username=rapaaal&show_icons=true&hide_title=true&hide_border=true&rank_icon=github&include_all_commits=true)](https://github.com/rapaaal)
-
-[![Top
-languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rapaaal&layout=compact&hide_border=true&langs_count=6)](https://github.com/rapaaal)
-:::
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-*Curious by nature. Learning by building.*
-:::
+</div>
