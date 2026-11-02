@@ -25,8 +25,8 @@ Robotics & Artificial Intelligence Engineering student at **Universitas Airlangg
 **⚡ Quick facts**
 
 - 🎓 Robotics Engineering & AI, Universitas Airlangga (Surabaya)
-- 🥇 Graduated top of the MIPA program at MAN 1 Kudus before continuing to Airlangga
-- 🔭 Currently building my personal portfolio site and staying active with HIMATERA
+- 🥇 Graduated top of the MIPA program at MAN 1 Kudus 
+- 🔭 Currently building my personal portfolio site 
 - 🎯 Aiming for a Master's abroad, with a robotics/AI industry role as the backup path
 - 💬 Happy to talk robotics, embedded systems, or product design
 - 📫 rafaalbanin19207@gmail.com
