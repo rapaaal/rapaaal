@@ -67,6 +67,7 @@ Robotics & Artificial Intelligence Engineering student at **Universitas Airlangg
 
 <div align="left">
 
+### Activity🎶
 <img src="spotify-embed.svg"/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
