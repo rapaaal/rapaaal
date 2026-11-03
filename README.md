@@ -15,13 +15,13 @@
 </div>
 
 <br/>
-
+---
 ### 👋 About Me
 
 Robotics & Artificial Intelligence Engineering student at **Universitas Airlangga**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
 
 <br/>
-
+---
 **⚡ Quick facts**
 
 - 🎓 Robotics Engineering & AI, Universitas Airlangga (Surabaya)
@@ -52,7 +52,7 @@ Robotics & Artificial Intelligence Engineering student at **Universitas Airlangg
 </details>
 
 <br/>
-
+---
 ### 🛠️ Tech Stack
 
 <div align="center">
@@ -66,7 +66,7 @@ Robotics & Artificial Intelligence Engineering student at **Universitas Airlangg
 <br/>
 
 <div align="left">
-
+---
 ### Activity🎶
 <img src="spotify-embed.svg"/>
 
