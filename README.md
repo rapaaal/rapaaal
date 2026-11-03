@@ -83,11 +83,9 @@ I am always eager to connect with fellow engineers, researchers, and tech enthus
 ---
 
 <div align="left">
-
-![GitHub GIF](githubgif.gif)
   
 ### Activity🎶
-<img src="spotify-embed.svg"/>
+![GitHub GIF](githubgif.gif)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05060F,50:6D28D9,100:22D3EE&height=100&section=footer" width="100%"/>
 
