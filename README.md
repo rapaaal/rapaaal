@@ -83,6 +83,8 @@ I am always eager to connect with fellow engineers, researchers, and tech enthus
 ---
 
 <div align="left">
+
+![GitHub GIF](githubgif.gif)
   
 ### Activity🎶
 <img src="spotify-embed.svg"/>
