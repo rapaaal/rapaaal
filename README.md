@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="hero-banner.svg" width="100%"/>
-
-<img src="docs/previews/aurora-famous.svg" width="100%" />
+<img src="aurora-famous.svg" width="100%" />
 
 <a href="#">
   <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=19&pause=1200&color=22D3EE&center=true&vCenter=true&width=600&lines=Robotics+%2B+AI+%2B+Design;Always+building.+Always+learning." alt="Typing SVG" />
