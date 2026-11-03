@@ -20,7 +20,17 @@
 
 ### 👋 About Me
 
-Robotics & Artificial Intelligence Engineering student at **Universitas Airlangga**, based in Surabaya. My focus is on giving machines a sense of "thinking" — pairing solid programming fundamentals with a design-conscious eye to build tech that's as functional as it is well-crafted. I don't just follow trends in the field, I dig into them, staying curious and comfortable trying things I haven't done before.
+I am a Robotics and Artificial Intelligence enthusiast driven by a deep passion for designing intelligent cyber-physical systems. My technical focus spans across Embedded Systems, Internet of Things (IoT), electrical engineering, and AI-driven automation.
+
+Currently, I am actively focusing on applied R&D and innovation projects, bridging the gap between hardware prototyping, low-level firmware development, and intelligent system design. I enjoy tackling complex engineering challenges through a methodical, first-principles approach.
+
+Key Competencies:
+- Robotics & AI: Computer Vision, Data-Driven Modeling, Edge Intelligence.
+- Embedded & IoT: Microcontroller Programming (ESP32/AVR), Wireless Communication, Real-Time Sensor Networks.
+- Electrical & Hardware: Circuit Design, Signal Optimization, Hardware Debugging.
+- R&D & Prototyping: Applied Engineering, Structured System Optimization.
+
+I am always eager to connect with fellow engineers, researchers, and tech enthusiasts. Feel free to reach out if you'd like to collaborate on innovative projects or discuss the future of smart technology!
 
 <br/>
 
